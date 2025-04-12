@@ -11535,6 +11535,16 @@ ul.social-icons a {
   background-attachment: fixed;
   color: #fff;
 }
+@media (max-width:463px) {
+  .header {
+    background: #000;
+      background-image: url(../imgs/headersondos4.png);
+        background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+  }
+}
 .yelloww {
   background-color: yellow;
   color:#000;
