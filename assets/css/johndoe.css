@@ -11536,6 +11536,13 @@ ul.social-icons a {
   color: #fff;
 }
 @media (max-width: 570px) {
+  #resume {
+      background-image: url(../imgs/headersondos5.png) !important;
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-attachment: fixed !important;
+    }
   .header {
     background: #000;
       background-image: url(../imgs/headersondos4.png) !important;
@@ -11550,6 +11557,7 @@ ul.social-icons a {
     .header .header-content .header-mono {
       
     }
+
 }
 .yelloww {
   background-color: yellow;
