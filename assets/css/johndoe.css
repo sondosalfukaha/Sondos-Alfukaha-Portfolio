@@ -11535,15 +11535,21 @@ ul.social-icons a {
   background-attachment: fixed;
   color: #fff;
 }
-@media (max-width:463px) {
+@media (max-width: 570px) {
   .header {
     background: #000;
-      background-image: url(../imgs/headersondos4.png);
-        background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-attachment: fixed;
+      background-image: url(../imgs/headersondos4.png) !important;
+        background-size: cover !important;
+          background-position: center !important;
+          background-repeat: no-repeat !important;
+          background-attachment: fixed !important;
   }
+    .header .header-content .header-title {
+      font-size: 25px !important;
+    }
+    .header .header-content .header-mono {
+      
+    }
 }
 .yelloww {
   background-color: yellow;
